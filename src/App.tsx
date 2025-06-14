@@ -23,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/generate" element={<QRGenerator />} />
           <Route path="/user/:userId" element={<UserProfile />} />
+          <Route path="/login" element={<Login />} /> 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
@@ -30,6 +31,6 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
-<Route path="/login" element={<Login />} /> 
+
 
 export default App;
