@@ -8,7 +8,7 @@ import Index from "./pages/Index";
 import QRGenerator from "./pages/QRGenerator";
 import UserProfile from "./pages/UserProfile";
 import NotFound from "./pages/NotFound";
-import Login from "./pages/Login";
+import Login from "../pages/Login";
 
 
 const queryClient = new QueryClient();
